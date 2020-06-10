@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>閉じる</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">自己紹介</a>
+            </li>
+            <li>
+                <a href="#experience">経歴</a>
+            </li>
+            <li>
+                <a href="#education">学歴</a>
+            </li>
+            <li>
+                <a href="#projects">プロジェクト</a>
+            </li>
+            <li>
+                <a href="#skills">スキル </a>
+            </li>
+            <li>
+                <a href="#contact">お問い合わせ</a>
+            </li>
+        </ul>
+    </header>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Haruki Takahashi</h1>
+            <h2>Webエンジニア</h2>
+        </div>
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">自己紹介</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        現在、2年目のフロント寄りのエンジニアです。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">経歴</h2>
+        <div id="experience-timeline">
+            <div data-date="2019 – 現在">
+                <h3>サイバーバズ</h3>
+                <h4>エンジニア</h4>
+                <p>
+                    フルスタックエンジニアとして、要件定義から開発・実装またインフラ周りまで担当
+                    フロントの開発がメインですが、サーバーサイドの開発も行っています。自社プロダクト
+                    の改修を担当をしています。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="education">
+        <h2 class="heading">学歴</h2>
+        <div class="education-block">
+            <h3>法政大学</h3>
+            <span class="education-date">2016/4 - 2020/3</span>
+            <h4>キャリアデザイン学部</h4>
+            <p>
+                学際実行員に所属、告知用のHPを作ったり、パンフレット制作やインターンでイベント運営やメディア運営のライターなどをやってました。
+                プログラミングは大学3年生のときから、始めました。
+            </p>
+        </div>
+    </div>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">プロジェクト</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/ihack.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>iHack</h3>
+                        <p>
+                            開発期間：6ヶ月
+                        </p>
+                        <p>
+                            ひとりひとりの悩みや生活スタイルに沿った最適なサプリメントを診断。
+                            診断場面を担当しました
+                        </p>
+                        <div id="project-skills">
+                            <ul>
+                                <li>TypeScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                        <a href="https://ihack.energy/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/keibanabi.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>競馬ナビ</h3>
+                        <p>
+                            開発期間：3日
+                        </p>
+                        <p>
+                            ブログを始めたいという友人のために、なるべく低コストで始められる
+                            Netlify + Gatsby + NetlifyCMSを使ったjamstackのブログです
+                        </p>
+                        <div id="project-skills">
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Gatsby</li>
+                                <li>Netlify</li>
+                            </ul>
+                        </div>
+                        <a href="https://mkkeiba.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <h2 class="heading">スキル</h2>
+        <ul>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Scala</li>
+            <li>Google App Script</li>
+        </ul>
+    </div>
+    <div id="contact">
+        <!-- <h2>お問い合わせ</h2> -->
+        <div id="contact-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdosHtO_r16EpcIrWSlor-kr1p0rIJJZJu7KWrPhBkmDoEfXw/viewform?embedded=true" width="300" height="450" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <!-- <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form> -->
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Haruki Takahashi
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/haku1217" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.facebook.com/haruki.takahshi" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/harusora12ma" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+</html>
